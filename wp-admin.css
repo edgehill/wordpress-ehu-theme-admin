@@ -1,0 +1,38 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30-Jan-2014, 11:15:13
+    Author     : Chris Lomas
+*/
+
+div.widget-liquid-left {
+    float: right;
+    width: 20%;
+}
+#widgets-left #available-widgets .widget {
+    width: 100%;
+}
+div.widget-liquid-right {
+    float: left;
+    width: 78%
+}
+div#widgets-right .widgets-sortables {
+    overflow: auto;
+}
+#widgets-right .sidebars-column-1, #widgets-right .sidebars-column-2 {
+    float: left;
+    width: 100%;
+}
+#widgets-right .sidebars-column-1 {
+    margin-right: 0%;
+}
+div#widgets-right .sidebars-column-1, div#widgets-right .sidebars-column-2 {
+    max-width: 829px;
+}
+div#widgets-right .widgets-holder-wrap {
+    box-sizing: border-box;
+    clear: both;
+}
